@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aos_api_client"
+version = "0.0.1a"
+dependencies = [
+  "requests",
+]
+requires-python = ">=3.12"
+authors = [
+  {name="Scientress", email="mail@evilscientress.de"},
+]
+description = "API client for Aruba (HPE) Mobility Controler and Mobility Master"
+readme = "README.md"
+license = {file = 'LICENSE.txt'}
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/evilscientres/aos_api_client"
+Issues = "https://github.com/evilscientres/aos_api_client/issues"
